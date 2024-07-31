@@ -92,3 +92,9 @@ Then run the following command to send a test email:
 ```bash
 npm run send:mail
 ```
+
+---
+
+## Guthub demo hosting
+
+[Demo](https://evgenyleukhin.github.io/mjml-email-starter/)
