@@ -13,7 +13,8 @@
     "prepare": "husky",
     "preview": "vite preview",
     "send:mail": "node --import tsx src/send-mail.ts",
-    "test": "tsc --noEmit"
+    "test": "tsc --noEmit",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
@@ -30,5 +31,8 @@
     "tsx": "^4.8.2",
     "typescript": "^5.4.5",
     "vite": "^5.2.11"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
