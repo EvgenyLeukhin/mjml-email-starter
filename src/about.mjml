@@ -1,0 +1,12 @@
+<mjml>
+  <mj-body background-color="white">
+    <mj-section background-color="#e2e8f0">
+      <mj-column padding="24px">
+        <mj-text>ABOUT template</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Columns -->
+    <mj-include path="./components/columns.mjml" />
+  </mj-body>
+</mjml>
