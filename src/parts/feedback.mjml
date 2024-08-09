@@ -1,0 +1,16 @@
+<!--FEEDBACK-->
+<mj-section>
+  <mj-column>
+    <mj-text mj-class="FEEDBACK__TEXT" css-class="FEEDBACK__TEXT">
+      Send us an email at <a href="#" style="color: #007cff;">feedback@producthired.com</a> 
+      to let us know what you think about this new email.
+      Please note that you will not receive a&nbsp;response&nbsp;back.
+    </mj-text>
+
+    <mj-button mj-class="FEEDBACK__BUTTON" css-class="FEEDBACK__BUTTON" href="#">Unsubscribe</mj-button>
+    <mj-button mj-class="FEEDBACK__BUTTON" css-class="FEEDBACK__BUTTON" href="#">Help</mj-button>
+
+    <mj-divider mj-class="FEEDBACK__DEVIDER" css-class="FEEDBACK__DEVIDER" />
+  </mj-column>
+</mj-section>
+<!--/FEEDBACK-->

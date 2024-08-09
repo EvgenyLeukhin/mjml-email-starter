@@ -1,0 +1,47 @@
+<!-- FOOTER -->
+<mj-section css-class="FOOTER">
+
+  <!-- ADDRESS -->
+  <mj-column>
+    <mj-text mj-class="FOOTER__TEXT" css-class="FOOTER__TEXT">Made by ProductHired LLC</mj-text>
+    <mj-text mj-class="FOOTER__TEXT" css-class="FOOTER__TEXT">513 Chalk Ln. Austin,TX - 92345</mj-text>
+  </mj-column>
+  <!-- /ADDRESS -->
+
+  <!-- SOCIAL -->
+  <mj-column>
+    <mj-social mj-class="FOOTER__ICONS" css-class="FOOTER__ICONS">
+      <mj-social-element 
+        href="https://www.facebook.com/producthired/"
+        name="facebook"
+        src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/facebook-square%403x.png"
+        alt="facebook"
+      />
+
+      <mj-social-element
+        href="https://twitter.com/ProductHired"
+        name="twitter"
+        src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/twitter%403x.png"
+        alt="twitter"
+      />
+
+      <mj-social-element 
+        href="https://www.linkedin.com/company/producthired/"
+        name="linkedin"
+        src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/linkedin%403x.png"
+        alt="linkedin"
+      />
+
+      <mj-social-element 
+        href="#" 
+        name="angellist" 
+        src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/angellist%403x.png"
+        alt="angellist"
+      />
+    </mj-social>
+    <mj-spacer height="50px" />
+  </mj-column>
+  <!-- /SOCIAL -->
+
+</mj-section>
+<!-- /FOOTER -->

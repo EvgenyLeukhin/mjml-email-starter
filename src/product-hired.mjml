@@ -1,0 +1,162 @@
+<mjml>
+  <mj-head>
+    <mj-title>Account Settings have been modified</mj-title>
+    <!-- disable breakpoint on mobiles -->
+    <mj-breakpoint width="319px" /> 
+    <mj-attributes>
+      <!-- common -->
+      <mj-font name="Helvetica" />
+      <mj-all padding="0px" font-family="-apple-system, BlinkMacSystem Font, BlinkMacSystemFont, Segoe UI,Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, sans-serif" />
+      <mj-text color="#1f1f1f" />
+      <mj-social-element padding="0 0 0 10px" target="_blank" background-color="transparent" />
+
+      <!-- layout -->
+      <mj-class name="BODY" width="600px" background-color="#f4f5f8" />
+      <mj-class name="HEADER__GREEN" background-color="#00cb83" />
+      <mj-class name="HEADER__DARK" background-color="#1f1d4e" />
+
+      <mj-class name="LOGO" align="center" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/master/src/img/full-logo-primary%403x.png" alt="logo.png" />
+
+      <mj-class name="LOGO__GREEN" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-carribean-green%403x.png" alt="logo.png" />
+
+      <mj-class name="LOGO__DARK" padding="35px 0" width="175px" height="42px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/full-logo-ph-port-gore%403x.png" alt="logo.png" />
+
+
+      <mj-class name="CONTENT" width="400px" background-color="#fff" />
+      <mj-class name="CONTENT__WRAPPER" padding-bottom="0px" />
+
+      <mj-class name="TITLE" font-size="30px" font-weight="bold" line-height="35px" align="center" padding="15px 0 10px" letter-spacing="-0.6px" />
+
+      <mj-class name="SUB-TITLE" font-size="17px" line-height="25px" align="center" padding="10px 0 10px" />
+
+      <mj-class name="IMAGE" padding="50px 0 15px" alt="image.png" />
+
+      <mj-class name="BUTTON" background-color="#007cff" color="#ffffff" height="50px" inner-padding="0px" font-size="17px" font-weight="bold" padding="20px 0 40px" />
+
+      <mj-class name="FEEDBACK__TEXT" align="center" color="#818181" font-size="15px" line-height="22px" padding="40px 30px 20px" />
+      <mj-class name="FEEDBACK__BUTTON" color="#9a9a9a" inner-padding="0px" background-color="transparent" padding="5px 0" text-decoration="underline" />
+      <mj-class name="FEEDBACK__DEVIDER" padding="27px 0" border-width="1px" border-style="solid" border-color="#cccccc" />
+
+      <mj-class name="FOOTER__TEXT" font-size="13px" line-height="20px" color="#9a9a9a" padding="3px 0 2px" />
+      <mj-class name="FOOTER__ICONS" font-size="15px" icon-size="30px" align="right" padding-top="10px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a { text-decoration: none; color: inherit; }
+      .CONTENT { 
+        -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15); 
+        border-radius: 10px;
+      }
+    </mj-style>
+
+    <mj-style>
+      @media (max-width: 620px) {
+        .BODY, .CONTENT {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+          max-width: 100% !important;
+        }
+
+        .LOGO, .LOGO__GREEN, .LOGO__DARK { padding: 18px 0 !important; }
+
+        .LOGO td, .LOGO img,
+        .LOGO__GREEN td, .LOGO__GREEN img,
+        .LOGO__DARK td, .LOGO__DARK img { 
+          width: 129px !important; 
+          height: 31px !important; 
+        }
+
+        .TITLE { padding: 10px 0 10px !important; }
+        .TITLE div {
+          font-size: 22px !important;
+          letter-spacing: normal !important;
+          line-height: 28px !important;
+        }
+
+        .SUB-TITLE { padding-bottom: 10px !important; }
+        .SUB-TITLE div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+
+        .IMAGE    { padding: 25px 0 10px !important; }
+        .IMAGE td { width: 86px !important; }
+
+        .BUTTON { 
+          width: 200px !important;
+          height: 46px !important;
+          padding: 10px 0 30px !important;
+        }
+        .BUTTON td { height: 46px !important; }
+        .BUTTON a {
+           font-size: 15px !important;
+           line-height: 18px !important;
+        }
+
+        .FEEDBACK__TEXT {
+          padding: 20px 0 10px 0 !important;
+        }
+        .FEEDBACK__TEXT div { 
+          font-size: 13px !important;
+          line-height: 18px !important;
+        }
+
+        .FEEDBACK__DEVIDER { padding: 10px 0 20px 0 !important; }
+
+        .FOOTER div, .FOOTER td {
+          text-align: center !important;
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body mj-class="BODY" css-class="BODY"> 
+    <mj-include path="./parts/header.mjml" />
+
+    <!-- CONTENT -->
+    <mj-section>
+      <mj-body mj-class="CONTENT" css-class="CONTENT">
+        <mj-wrapper mj-class="CONTENT__WRAPPER" css-class="CONTENT__WRAPPER">
+
+          <mj-section>
+            <mj-column>
+              <!-- IMAGE -->
+                <mj-image mj-class="IMAGE" css-class="IMAGE" width="120px" src="https://raw.githubusercontent.com/EvgenyLeukhin/emails-mjml/final-version/src/img/settings-1%403x.png" />
+              <!-- /IMAGE -->
+
+              
+              <!-- TITLE -->
+              <mj-text mj-class="TITLE" css-class="TITLE">
+                Account Settings have been modified
+              </mj-text>
+              <!-- /TITLE -->
+
+
+              <!-- SUB-TITLE -->
+              <mj-text mj-class="SUB-TITLE" css-class="SUB-TITLE">
+                You have just modified your account settings. <br />
+                If you are unaware of this action, please contact us
+              </mj-text>
+              <!-- /SUB-TITLE -->
+
+
+              <!-- BUTTON -->
+              <mj-button mj-class="BUTTON" css-class="BUTTON" href="#" width="220px">
+                Contact ProductHired
+              </mj-button>
+              <!-- /BUTTON -->
+            </mj-column>
+          </mj-section>
+
+        </mj-wrapper>
+      </mj-body>
+    </mj-section>
+    <!-- /CONTENT -->
+
+    <mj-include path="./parts/feedback.mjml" />
+    <mj-include path="./parts/footer.mjml" />
+  </mj-body>
+</mjml>

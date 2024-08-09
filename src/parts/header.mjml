@@ -1,0 +1,7 @@
+<!--HEADER-->
+<mj-section border-top="5px solid #00cb83">
+  <mj-column>
+    <mj-image mj-class="LOGO" css-class="LOGO" />
+  </mj-column>
+</mj-section>
+<!--/HEADER-->

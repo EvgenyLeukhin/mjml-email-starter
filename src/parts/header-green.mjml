@@ -1,0 +1,7 @@
+<!--HEADER-GREEN-->
+<mj-section mj-class="HEADER__GREEN" css-class="HEADER__GREEN">
+  <mj-column>
+    <mj-image mj-class="LOGO__GREEN" css-class="LOGO__GREEN" />
+  </mj-column>
+</mj-section>
+<!--/HEADER-GREEN-->
